@@ -482,7 +482,7 @@ class ID3v2 < DelegateClass(Hash)
           else
             out.force_encoding(TEXT_ENCODINGS[encoding_index])
           end
-          out.encode!("utf-8")
+          out.encode!('utf-8', 'binary', :undef => :replace, :invalid => :replace)
         end
 
         # remove padding zeros for textual tags
