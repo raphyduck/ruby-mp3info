@@ -73,7 +73,13 @@ class Mp3Info
     "Indie", "BritPop", "NegerPunk", "Polsk Punk", "Beat",
     "Christian Gangsta", "Heavy Metal", "Black Metal", "Crossover", "Contemporary C",
     "Christian Rock", "Merengue", "Salsa", "Thrash Metal", "Anime", "JPop",
-    "SynthPop" ]
+    "SynthPop", "Abstract", "Art Rock", "Baroque", "Bhangra", "Big Beat",
+    "Breakbeat", "Chillout", "Downtempo", "Dub", "EBM", "Eclectic", "Electro",
+    "Electroclash", "Emo", "Experimental", "Garage", "Global", "IDM", "Illbient",
+    "Industro-Goth", "Jam Band", "Krautrock", "Leftfield", "Lounge", "Math Rock",
+    "New Romantic", "Nu-Breakz", "Post-Punk", "Post-Rock", "Psytrance", "Shoegaze",
+    "Space Rock", "Trop Rock", "World Music", "Neoclassical", "Audiobook", "Audio Theatre",
+    "Neue Deutsche Welle", "Podcast", "Indie Rock", "G-Funk", "Dubstep", "Garage Rock", "Psybient" ]
 
   TAG1_SIZE = 128
   #MAX_FRAME_COUNT = 6  #number of frame to read for encoder detection
